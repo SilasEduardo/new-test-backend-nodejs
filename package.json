@@ -1,0 +1,14 @@
+{
+  "name": "new-test-backend-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:SilasEduardo/new-test-backend-nodejs.git",
+  "author": "silasEduardo <silasandrade94@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1416.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.4"
+  }
+}
