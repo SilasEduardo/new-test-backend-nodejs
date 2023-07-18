@@ -5,6 +5,9 @@
   "repository": "git@github.com:SilasEduardo/new-test-backend-nodejs.git",
   "author": "silasEduardo <silasandrade94@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --inspect --transpile-only --ignore-watch node_modules src/shared/http/app.ts"
+  },
   "dependencies": {
     "aws-sdk": "^2.1416.0",
     "body-parser": "^1.20.2",
