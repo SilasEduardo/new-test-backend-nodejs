@@ -1,11 +1,11 @@
 import { Router } from "express";
 
-import { categoryRoutes } from "./categoryRoutes";
-import { productRoutes } from "./productRoutes";
+import { categoriesRoutes } from "./categoryRoutes";
+
 
 const router = Router();
 
-router.use("/category", categoryRoutes);
-router.use("/product", productRoutes);
+router.use("/category", categoriesRoutes);
+
 
 export { router };

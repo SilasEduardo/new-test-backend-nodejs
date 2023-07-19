@@ -1,9 +1,9 @@
+import { CreateCategoryController } from "@modules/Category/useCase/createCategory/createCategoryController";
 import { Router } from "express";
 
-const categoryRoutes = Router();
+const categoriesRoutes = Router();
+const createCategoryController = new CreateCategoryController();
 
-categoryRoutes.get("/", (req, res) => {
-  res.send("route category");
-});
+categoriesRoutes.post("/", createCategoryController.handle);
 
-export { categoryRoutes };
+export { categoriesRoutes };
